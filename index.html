@@ -1,0 +1,192 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateau au chocolat</title>
+    <style>
+        body{
+            background: #6C829DC0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        p.recette{
+            display: inline-block;
+            background-color: black;
+            color: white;
+            /* margin-left: 30px; */
+            margin-top: -18px;
+            padding: 9px 19px;
+            margin-bottom: 5px;
+
+        }
+        div.contenu{
+            display: block;
+            background-color: white;
+            margin: 60px 10% 80px 10%;
+            padding: 0px 30px 30px 30px;
+            min-width: 450;
+            box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 13px;
+        }
+        p.description{
+            text-align: center;
+            max-width: 400px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            
+        }
+
+        div.description{
+           text-align: center;
+        }
+        div.recette{
+            text-align: center;
+        }
+        div.description{
+            margin-bottom: 0px;
+        }
+        hr{
+            width: 25%;
+        }
+
+        div.separateur{
+            width: 150px;
+            height: 1px;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div.info{
+            position: relative;
+        }
+        table.info{
+            position:absolute;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            background-color: #6C829DC0;
+            height: 80px;
+        }
+        table.info td{
+            text-align: center;
+            font-size: 13px;
+        }
+        table.info th{
+            text-align: center;
+            font-size: 13px;
+        }
+        img.info{
+            display:inline-block;
+            width: 100%;
+            object-fit: cover; 
+        }
+        div.colonne{
+            width: 45%;
+            margin-top: 15px;
+        }
+        div.colonne h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 14px;
+            border-bottom: 4px solid #6C829DC0;
+            padding-bottom: 5px;
+        }
+        div.colonne1, div.colonne2 {
+            width: 45%;
+        }
+        div.colonne1{
+            /* background-color: cadetblue; */
+            display: inline-block;
+            margin-right: 10%;
+        }
+       
+        div.colonne2{
+            float: right;
+        }
+        div.ingre p{
+            border: 1px solid #6C829DC0;
+            text-align: center;
+            padding: 7px 0px;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 0; 
+        }
+        table.prep p.numero {
+            background-color: #6C829DC0;
+            color: white;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            box-sizing: border-box;
+            padding-top: 4px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="contenu">
+   <div class="recette description">
+        <p class="recette">Recette</p>
+    </div>
+
+    <h1>Gateau au chocolat</h1>
+    <div class="separateur"></div>
+
+    <div class="description">
+        <p class="description">cette recette facile du gateau au chocolat classique qui fera plaisir a vos enfants</p>
+    </div>
+    <br>
+        <img class="info" src="gtao.jpg" alt="Gateau">
+
+    <div class="info">
+        
+        <table class="info">
+            <tr>
+                <th>Difficulte</th>
+                <th>Preparation</th>
+                <th>Cuisson</th>
+                <th>Temps Total</th>
+            </tr>
+            <tr>
+                <td>facile</td>
+                <td>10min</td>
+                <td>20min</td>
+                <td>23min</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="colonne1 colonne">
+        <h2>Ingredients</h2>
+        <div class="ingre">
+            <p><strong>Noir: 200g</strong></p>
+            <p><strong>Beurre: 200g</strong></p>
+            <p><strong>Sucre: 150g</strong></p>
+            <p><strong>Farine: 80g</strong></p>
+        </div>
+    </div>
+    <div class="colonne2 colonne">
+        <h2>Preparations</h2>
+            <table class="prep">
+                <tr><td><p class="numero">1</p></td><td>Faire fondre le chocolat avec le beure</td></tr>
+                <tr><td><p class="numero">2</p></td><td>Melanger le sucre, les oeufs et la farine</td></tr>
+                <tr><td><p class="numero">3</p></td><td>Melanger le tout pour faire une pate</td></tr>
+                <tr><td><p class="numero">4</p></td><td>Mettre au four</td></tr>
+            </table>
+            
+    </div>
+</div>
+</body>
+</html>
