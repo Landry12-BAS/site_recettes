@@ -94,11 +94,8 @@ div.colonne h2{
 }
 div.colonne1, div.colonne2 {
     width: 45%;
-    /* padding-left: 138px; */
-    text-align: center;
 }
 div.colonne1{
-    /* background-color: cadetblue; */
     display: inline-block;
 }
 div.ingre p{
@@ -151,4 +148,5 @@ table.prep p.numero {
     }
     div.colonne1, div.colonne2 {
         width: 45%;
-  }
+    }
+}
